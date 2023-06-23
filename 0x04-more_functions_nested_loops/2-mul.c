@@ -8,10 +8,9 @@
  */
 
 int mul(int x, int y)
+
 {
-if (a >= 'A' && b <= 'Z')
-{
-return (x);
-}
-return (y);
+
+return (x = y );
+
 }
