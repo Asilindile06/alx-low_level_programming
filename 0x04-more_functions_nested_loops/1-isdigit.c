@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-if (c >= '48' && c <= '57')
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
