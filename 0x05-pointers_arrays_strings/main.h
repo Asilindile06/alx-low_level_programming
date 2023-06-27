@@ -1,3 +1,6 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
 #include "main.h"
 #include <stdio.h>
 
