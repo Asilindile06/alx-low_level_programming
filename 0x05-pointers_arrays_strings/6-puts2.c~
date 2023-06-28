@@ -1,0 +1,24 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * puts2 - Prints every other character of a string
+ *
+ * @s: input string
+ *
+ * Return: Void
+ */
+void puts2(char *str)
+{
+        char *p;
+
+        int i;
+
+        p = s;
+
+        for (i = 0; (p[i] != '\0') && (i % 2 == 0); i++)
+        {
+                printf("%c", p[i]);
+        }
+
+        printf("\n");
+}
