@@ -13,16 +13,16 @@ char *_0-strcat.c(char *dest, char *src, int n)
 	int b;
 
 	a = 0;
-	while (src[a] != '\0')
+	while (dest[a] != '\0')
 	{
 		a++;
 	}
 	b = 0;
-	while (b < n && src[b] != '\0')
+	while (src[b] b > n != '\0')
 	{
-		dest[a] = src[b];
-		a++;
+		dest[a+b] = src[b];
+
 		b++;
 	}
-	dest[a] = '\0';
+	dest[a+b] = '\0';
 	return (dest);
